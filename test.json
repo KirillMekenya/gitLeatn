@@ -1,0 +1,92 @@
+{
+  "tabs" : [ {
+    "key" : "Проверить",
+    "transactionId" : "a2afa28a-aad6-4b8b-8c37-27e3c38936fc",
+    "fields" : [ {
+      "id" : "#MARK",
+      "hidden" : false,
+      "type" : "MARKDOWN",
+      "label" : "",
+      "text" : "# Привязка счёта к внешним сервисам \nПокупки в этих магазинах и сервисах оплачиваются со счёта без подтверждения в приложении Альфа-Банка. [Узнать больше](alfabank:///markdown_viewer?endpoint=v1/anyway-subscription/subscriptions/info/sbp)"
+    }, {
+      "id" : "#SUTO",
+      "type" : "BANNERED_ITEM_SELECT",
+      "label" : "Куда привязаны мои счета",
+      "items" : [ {
+        "value" : "4568475d-e382-4a11-aacc-bd3b978f9dd7",
+        "dataView" : {
+          "dataContent" : {
+            "title" : {
+              "value" : "Azbuka Vkusa",
+              "typography" : "ParagraphPrimaryMedium",
+              "textContentKid" : "plain"
+            }
+          },
+          "iconView" : {
+            "backgroundIcon" : {
+              "url" : "https://click.alfabank.ru/cs/groups/public/documents/document/sbp.png"
+            }
+          }
+        },
+        "rightIconView" : {
+          "icon" : {
+            "color" : "graphicColorTertiary",
+            "name" : "glyph_chevron-forward-extra_m"
+          },
+          "size" : "small",
+          "shape" : "superellipse"
+        }
+      }, {
+        "value" : "f9b5af3a-4676-49c1-8ef7-867a59163259",
+        "dataView" : {
+          "dataContent" : {
+            "title" : {
+              "value" : "Khabensky Foundation(Internal)",
+              "typography" : "ParagraphPrimaryMedium",
+              "textContentKid" : "plain"
+            }
+          },
+          "iconView" : {
+            "icon" : {
+              "color" : "graphicColorSecondary",
+              "name" : "glyph_shopping-bag_m"
+            },
+            "backgroundColor" : "backgroundColorPrimary",
+            "size" : "small",
+            "shape" : "superellipse"
+          }
+        },
+        "rightIconView" : {
+          "icon" : {
+            "color" : "graphicColorTertiary",
+            "name" : "glyph_chevron-forward-extra_m"
+          },
+          "size" : "small",
+          "shape" : "superellipse"
+        }
+      } ],
+      "bannerStyle" : "NEUTRAL",
+      "hidden" : false
+    } ],
+    "step" : {
+      "number" : 0,
+      "type" : "LIST"
+    },
+    "navigationBar" : {
+      "buttons" : [ {
+        "id" : "",
+        "icon" : {
+          "url" : "https://click.alfabank.ru/cs/groups/public/documents/document/sbp.png"
+        },
+        "type" : "NON_CLICKABLE"
+      } ]
+    },
+    "handlers" : [ ],
+    "footerInfo" : { },
+    "analytics" : {
+      "label" : "qr",
+      "screen" : "screen",
+      "category" : "category"
+    }
+  } ]
+}
